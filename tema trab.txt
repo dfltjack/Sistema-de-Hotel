@@ -1,0 +1,10 @@
+Tema 7. Sistema de Gerenciamento de Hotel
+Descrição: Um sistema para gerenciar quartos, reservas e hóspedes de um hotel.
+
+CRUDs:
+
+Quartos: Adicionar novos quartos, visualizar lista de quartos, atualizar informações dos quartos, remover quartos.
+
+Reservas: Criar novas reservas, visualizar reservas, atualizar informações das reservas, cancelar reservas.
+
+Hóspedes: Registrar novos hóspedes, visualizar lista de hóspedes, atualizar informações dos hóspedes, remover hóspedes.
