@@ -14,9 +14,9 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
         [Display(Name = "Código da Reserva")]
         public int ReservaId { get; set; }
         [Display(Name = "Código do Quarto")]
-        public int? QuartoId { get; set; }
-        [Display(Name = "Código do Hóspede")]
-        public int? HospedeId { get; set; }
+        //public int? QuartoId { get; set; }
+        //[Display(Name = "Código do Hóspede")]
+        //public int? HospedeId { get; set; }
 
         public DateOnly DataCheckin { get; set; }
 
@@ -24,9 +24,9 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
 
         public string Status { get; set; }
 
-        public virtual Hospede Hospede { get; set; }
+        //public virtual Hospede Hospede { get; set; }
 
-        public virtual Quarto Quarto { get; set; }
+        //public virtual Quarto Quarto { get; set; }
 
         public ReservaVM()
         {
@@ -44,8 +44,8 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
                               DataCheckin = res.DataCheckin,
                               DataCheckout = res.DataCheckout,
                               Status = res.Status,
-                              HospedeId = res.HospedeId,
-                              QuartoId = res.QuartoId,
+                              //HospedeId = res.HospedeId,
+                              //QuartoId = res.QuartoId,
 
                           }).ToListAsync();
         }

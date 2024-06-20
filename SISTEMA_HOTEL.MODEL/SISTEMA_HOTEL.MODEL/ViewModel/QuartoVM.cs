@@ -22,7 +22,7 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
 
         public string Status { get; set; }
 
-        public virtual ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
+     
 
         public QuartoVM() 
         {
@@ -41,7 +41,7 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
                               Tipo = qua.Tipo,
                               Preco = qua.Preco,
                               Status = qua.Status,
-                              Reservas = qua.Reservas.ToList()
+                              
 
                           }).ToListAsync();
         }

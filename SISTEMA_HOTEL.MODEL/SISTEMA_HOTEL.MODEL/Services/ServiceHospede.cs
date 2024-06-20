@@ -25,29 +25,40 @@ namespace SISTEMA_HOTEL.MODEL.Services
 
         public async Task<HospedeVM> IncluirHospedeAsync(HospedeVM hospedeVM)
         {
-            var hospede = new Hospede()
+            try
             {
-                Nome = hospedeVM.Nome,
-                Email = hospedeVM.Email,
-                Telefone = hospedeVM.Telefone,
-                DocumentoIdentificacao = hospedeVM.DocumentoIdentificacao,
-                Reservas = hospedeVM.Reservas,
-            };            
+                var hospede = new Hospede()
+                {
+                    Nome = hospedeVM.Nome,
+                    Email = hospedeVM.Email,
+                    Telefone = hospedeVM.Telefone,
+                    DocumentoIdentificacao = hospedeVM.DocumentoIdentificacao,
+                    //Reservas = hospedeVM.Reservas,
+                };
 
-            await oRepositoryHospede.IncluirAsync(hospede);
+                await oRepositoryHospede.IncluirAsync(hospede);
 
-            return hospedeVM;
+                return hospedeVM;
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+         
         }
 
         public async Task<HospedeVM> AlterarHospedeAsync(HospedeVM hospedeVM)
         {
             var hospede = new Hospede()
             {
+                HospedeId = hospedeVM.HospedeId,
                 Nome = hospedeVM.Nome,
                 Email = hospedeVM.Email,
                 Telefone = hospedeVM.Telefone,
                 DocumentoIdentificacao = hospedeVM.DocumentoIdentificacao,
-                Reservas = hospedeVM.Reservas,
+                //Reservas = hospedeVM.Reservas,
             };
 
             await oRepositoryHospede.AlterarAsync(hospede);

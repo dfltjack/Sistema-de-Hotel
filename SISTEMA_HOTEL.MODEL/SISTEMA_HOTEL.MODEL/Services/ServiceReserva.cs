@@ -30,11 +30,27 @@ namespace SISTEMA_HOTEL.MODEL.Services
                 DataCheckin = reservaVM.DataCheckin,
                 DataCheckout = reservaVM.DataCheckout,
                 Status = reservaVM.Status,
-                Quarto = reservaVM.Quarto,
-                Hospede = reservaVM.Hospede,
+                //Quarto = reservaVM.Quarto,
+                //Hospede = reservaVM.Hospede,
             };
 
             await oRepositoryReserva.IncluirAsync(reserva);
+
+            return reservaVM;
+        }
+
+        public async Task<ReservaVM> AlterarReservaAsync(ReservaVM reservaVM)
+        {
+            var reserva = new Reserva()
+            {
+                DataCheckin = reservaVM.DataCheckin,
+                DataCheckout = reservaVM.DataCheckout,
+                Status = reservaVM.Status,
+                //Quarto = reservaVM.Quarto,
+                //Hospede = reservaVM.Hospede,
+            };
+
+            await oRepositoryReserva.AlterarAsync(reserva);
 
             return reservaVM;
         }

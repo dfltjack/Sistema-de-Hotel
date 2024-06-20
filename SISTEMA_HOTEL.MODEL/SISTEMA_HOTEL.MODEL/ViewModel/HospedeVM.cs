@@ -11,8 +11,10 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
 {
     public class HospedeVM
     {
+        [Key]
         [Display(Name = "Código do Hóspede")]
         public int HospedeId { get; set; }
+
         [Display(Name = "Nome do Hóspede")]
         [StringLength(100, MinimumLength = 5, ErrorMessage = "O Tamanho não pode ser menor que 5")]
         public string Nome { get; set; }
@@ -23,7 +25,7 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
 
         public string DocumentoIdentificacao { get; set; }
 
-        public virtual ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
+        //public virtual ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
 
         public HospedeVM()
         {
@@ -42,7 +44,7 @@ namespace SISTEMA_HOTEL.MODEL.ViewModel
                               Email = hos.Email,
                               Telefone = hos.Telefone,
                               DocumentoIdentificacao = hos.DocumentoIdentificacao,
-                              Reservas = hos.Reservas.ToList()
+                              //Reservas = hos.Reservas.ToList()
 
                           }).ToListAsync();
         }

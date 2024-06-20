@@ -2,11 +2,13 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace SISTEMA_HOTEL.MODEL.Models;
 
 public partial class Hospede
 {
+    [Key]
     public int HospedeId { get; set; }
 
     public string Nome { get; set; }

@@ -12,3 +12,4 @@ D:\faculdade\desenvolvimento web chiarelli\Sistema de Gerenciamento de Hotel\SIS
 D:\faculdade\desenvolvimento web chiarelli\Sistema de Gerenciamento de Hotel\SISTEMA_HOTEL.MODEL\SISTEMA_HOTEL.MODEL\obj\Debug\net8.0\SISTEMA_HOTEL.MODEL.pdb
 D:\faculdade\desenvolvimento web chiarelli\Sistema de Gerenciamento de Hotel\SISTEMA_HOTEL.MODEL\SISTEMA_HOTEL.MODEL\obj\Debug\net8.0\SISTEMA_HOTEL.MODEL.genruntimeconfig.cache
 D:\faculdade\desenvolvimento web chiarelli\Sistema de Gerenciamento de Hotel\SISTEMA_HOTEL.MODEL\SISTEMA_HOTEL.MODEL\obj\Debug\net8.0\ref\SISTEMA_HOTEL.MODEL.dll
+D:\faculdade\desenvolvimento web chiarelli\Sistema de Gerenciamento de Hotel\SISTEMA_HOTEL.MODEL\SISTEMA_HOTEL.MODEL\obj\Debug\net8.0\SISTEMA_HOTEL.MODEL.sourcelink.json

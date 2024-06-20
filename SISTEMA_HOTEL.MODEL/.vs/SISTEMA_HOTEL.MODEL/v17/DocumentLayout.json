@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9416C9D-0890-40DF-B5B7-C1C50887B4AA}|SISTEMA_HOTEL.API\\SISTEMA_HOTEL.API.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.api\\controllers\\quartocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9416C9D-0890-40DF-B5B7-C1C50887B4AA}|SISTEMA_HOTEL.API\\SISTEMA_HOTEL.API.csproj|solutionrelative:sistema_hotel.api\\controllers\\quartocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.model\\viewmodel\\reservavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|solutionrelative:sistema_hotel.model\\viewmodel\\reservavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9416C9D-0890-40DF-B5B7-C1C50887B4AA}|SISTEMA_HOTEL.API\\SISTEMA_HOTEL.API.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.api\\controllers\\hospedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9416C9D-0890-40DF-B5B7-C1C50887B4AA}|SISTEMA_HOTEL.API\\SISTEMA_HOTEL.API.csproj|solutionrelative:sistema_hotel.api\\controllers\\hospedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.model\\services\\servicereserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|solutionrelative:sistema_hotel.model\\services\\servicereserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.model\\services\\servicequarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.model\\services\\servicehospede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|solutionrelative:sistema_hotel.model\\services\\servicehospede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.model\\viewmodel\\quartovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F1BAAD-818E-47A2-BF62-7A78F6630BAE}|SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL.csproj|solutionrelative:sistema_hotel.model\\viewmodel\\quartovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9416C9D-0890-40DF-B5B7-C1C50887B4AA}|SISTEMA_HOTEL.API\\SISTEMA_HOTEL.API.csproj|d:\\faculdade\\desenvolvimento web chiarelli\\sistema de gerenciamento de hotel\\sistema_hotel.model\\sistema_hotel.api\\controllers\\hospedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9416C9D-0890-40DF-B5B7-C1C50887B4AA}|SISTEMA_HOTEL.API\\SISTEMA_HOTEL.API.csproj|solutionrelative:sistema_hotel.api\\controllers\\hospedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 137,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,6 +65,35 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceReserva.cs",
+              "DocumentMoniker": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\Services\\ServiceReserva.cs",
+              "RelativeDocumentMoniker": "SISTEMA_HOTEL.MODEL\\Services\\ServiceReserva.cs",
+              "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\Services\\ServiceReserva.cs",
+              "RelativeToolTip": "SISTEMA_HOTEL.MODEL\\Services\\ServiceReserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T23:50:19.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservaVM.cs",
+              "DocumentMoniker": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\ViewModel\\ReservaVM.cs",
+              "RelativeDocumentMoniker": "SISTEMA_HOTEL.MODEL\\ViewModel\\ReservaVM.cs",
+              "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\ViewModel\\ReservaVM.cs",
+              "RelativeToolTip": "SISTEMA_HOTEL.MODEL\\ViewModel\\ReservaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T23:48:25.153Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ServiceQuarto.cs",
@@ -64,42 +101,21 @@
               "RelativeDocumentMoniker": "SISTEMA_HOTEL.MODEL\\Services\\ServiceQuarto.cs",
               "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\Services\\ServiceQuarto.cs",
               "RelativeToolTip": "SISTEMA_HOTEL.MODEL\\Services\\ServiceQuarto.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwDEAAAAwAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:03:20.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T23:29:05.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuartoController.cs",
-              "DocumentMoniker": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.API\\Controllers\\QuartoController.cs",
-              "RelativeDocumentMoniker": "SISTEMA_HOTEL.API\\Controllers\\QuartoController.cs",
-              "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.API\\Controllers\\QuartoController.cs",
-              "RelativeToolTip": "SISTEMA_HOTEL.API\\Controllers\\QuartoController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwDMAAAAwAAAA",
+              "DocumentIndex": 4,
+              "Title": "QuartoVM.cs",
+              "DocumentMoniker": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\ViewModel\\QuartoVM.cs",
+              "RelativeDocumentMoniker": "SISTEMA_HOTEL.MODEL\\ViewModel\\QuartoVM.cs",
+              "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\ViewModel\\QuartoVM.cs",
+              "RelativeToolTip": "SISTEMA_HOTEL.MODEL\\ViewModel\\QuartoVM.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:49:27.902Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 137,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HospedeController.cs",
-              "DocumentMoniker": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
-              "RelativeDocumentMoniker": "SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
-              "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
-              "RelativeToolTip": "SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwC4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T22:55:10.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T23:28:38.807Z"
             },
             {
               "$type": "Document",
@@ -109,10 +125,21 @@
               "RelativeDocumentMoniker": "SISTEMA_HOTEL.MODEL\\Services\\ServiceHospede.cs",
               "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.MODEL\\Services\\ServiceHospede.cs",
               "RelativeToolTip": "SISTEMA_HOTEL.MODEL\\Services\\ServiceHospede.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAgwCkAAAA4AAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAWwCsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:03:08.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T13:06:29.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HospedeController.cs",
+              "DocumentMoniker": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
+              "RelativeDocumentMoniker": "SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
+              "ToolTip": "D:\\faculdade\\desenvolvimento web chiarelli\\Sistema de Gerenciamento de Hotel\\SISTEMA_HOTEL.MODEL\\SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
+              "RelativeToolTip": "SISTEMA_HOTEL.API\\Controllers\\HospedeController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T13:02:04.178Z"
             }
           ]
         }

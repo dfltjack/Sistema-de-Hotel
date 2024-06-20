@@ -30,7 +30,7 @@ namespace SISTEMA_HOTEL.MODEL.Services
                 Tipo = quartoVM.Tipo,
                 Preco = quartoVM.Preco,
                 Status = quartoVM.Status,
-                Reservas = quartoVM.Reservas,
+                
             };
 
             await oRepositoryQuarto.IncluirAsync(quarto);
@@ -40,11 +40,12 @@ namespace SISTEMA_HOTEL.MODEL.Services
         {
             var quarto = new Quarto()
             {
+                QuartoId = quartoVM.QuartoId,
                 Numero = quartoVM.Numero,
                 Tipo = quartoVM.Tipo,
                 Preco = quartoVM.Preco,
                 Status = quartoVM.Status,
-                Reservas = quartoVM.Reservas,
+               
             };
 
             await oRepositoryQuarto.AlterarAsync(quarto);
