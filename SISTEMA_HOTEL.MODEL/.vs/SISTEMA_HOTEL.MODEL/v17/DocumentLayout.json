@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 137,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,10 +63,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -127,7 +123,8 @@
               "RelativeToolTip": "SISTEMA_HOTEL.MODEL\\Services\\ServiceHospede.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAWwCsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T13:06:29.081Z"
+              "WhenOpened": "2024-06-19T13:06:29.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
